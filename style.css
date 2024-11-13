@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: burlywood;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#btn {
+    position: absolute;
+    bottom: 20%;
+    font-family: Helvetica;
+    height: 15%;
+    width: 25%;
+    font-size: 30px;
+    border: 2px solid rgb(81, 79, 69);
+    background-color: rgb(191, 138, 63);
+    border-radius: 50px;
+    color: white;
+}
+
+#facts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    z-index: 200;
+    font-size: 30px;
+    color: black;
+    font-family: monospace;
+}
